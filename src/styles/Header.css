@@ -1,0 +1,48 @@
+.container__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:  0 0 10px 0 #00000010;
+    height: 4rem;
+    z-index: 100;
+    background:transparent; 
+}
+
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+}
+
+
+.navitem a{
+    padding: 0;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navlink{
+    
+    font-size: 15px;
+    color: #475569;
+    text-transform: uppercase;
+    margin: 0px 50px 0px 0px;
+    margin-left: -2.4rem;
+    text-decoration: none;
+}
+
+.navlink:hover{
+    color: #ECA376;
+}
+
+.botonsocial svg{
+    color: #FFF;
+    width: 2rem;
+    height: 2rem;
+}
+
+.botonsocial SVG:hover{
+    color: #ECA376;
+}
